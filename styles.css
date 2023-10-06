@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    margin: 0;
+    font-family: georgia;
+    background-color: orange;
+  }
+  #movieDetails, #filmMenu {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  #movieDetails {
+    width: 400px;
+  }
+
+  #filmMenu {
+    width: 400px
+    
+
+  }
+  h1 {
+    text-align: center;
+    
+
+  }
+
+  img {
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+   
+  }
+  #buyTicket {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  li {
+    padding: 5px 0;
+    cursor: pointer;
+    color: brown;
+    align-items: center;
+  }
+  ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+  li:hover {
+    background-color: #eee;
+  }
+  .container{
+    display: inline-block;
+    font-family: "georgia";
+    font-size: 24px;
+    color: black;
+  }
+  
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 3s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  .delete-button {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: darkblue;
+  }
+  

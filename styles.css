@@ -2,10 +2,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    height: 100vh;
     margin: 0;
     font-family: georgia;
-    background-color: orange;
+    background-image: url(Images/Movie4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
   }
   #movieDetails, #filmMenu {
     padding: 5px;
@@ -68,7 +72,7 @@ body {
     display: inline-block;
     font-family: "georgia";
     font-size: 24px;
-    color: black;
+    color: whitesmoke;
   }
   
   .typed {
@@ -86,15 +90,11 @@ body {
     to { width: 100% }
   }
 
-  .delete-button {
+   .delete-button {
     background-color: blue;
     color: white;
     padding: 5px 10px;
     border: none;
     cursor: pointer;
+
   }
-  
-  .delete-button:hover {
-    background-color: darkblue;
-  }
-  
